@@ -1,4 +1,0 @@
-garden.pizza
-============
-
-Kivy Pizza
