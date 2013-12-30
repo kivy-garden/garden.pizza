@@ -41,7 +41,6 @@ from kivy.properties import ListProperty
 from kivy.properties import NumericProperty
 from kivy.properties import BooleanProperty
 from kivy.uix.relativelayout import RelativeLayout
-from kivy.uix.gridlayout import GridLayout
 from kivy.graphics import Color
 from kivy.graphics import Ellipse
 from kivy.graphics import Line
@@ -171,7 +170,7 @@ class ChartApp(App):
 
         """
         def build(self):
-
+            from kivy.uix.gridlayout import GridLayout
             from kivy.uix.slider import Slider
             import random
 
