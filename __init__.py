@@ -44,7 +44,6 @@ from kivy.uix.relativelayout import RelativeLayout
 from kivy.graphics import Color
 from kivy.graphics import Ellipse
 from kivy.graphics import Line
-from kivy.graphics import Rectangle
 from kivy.uix.label import Label
 from kivy.utils import get_color_from_hex
 
